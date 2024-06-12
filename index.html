@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Registration Portal</title>
+</head>
+<body>
+    <form id="registrationForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="eventDate">Event Date:</label>
+        <select id="eventDate" name="eventDate" required>
+            <option value="">Select a date</option>
+            <option value="2022-01-01">January 1, 2022</option>
+            <option value="2022-02-01">February 1, 2022</option>
+            <option value="2022-03-01">March 1, 2022</option>
+        </select>
+        <br>
+        <label for="mealPreference">Meal Preference:</label>
+        <input type="checkbox" id="vegetarian" name="mealPreference" value="Vegetarian">
+        <label for="vegetarian">Vegetarian</label>
+        <input type="checkbox" id="nonVegetarian" name="mealPreference" value="Non-Vegetarian">
+        <label for="nonVegetarian">Non-Vegetarian</label>
+        <input type="checkbox" id="vegan" name="mealPreference" value="Vegan">
+        <label for="vegan">Vegan</label>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+    <div id="registrationDetails"></div>
+    <script src="script.js"></script>
+</body>
+</html>
