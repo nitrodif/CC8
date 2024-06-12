@@ -31,3 +31,8 @@
         <label for="vegan">Vegan</label>
         <br>
         <button type="submit">Submit</button>
+ </form>
+    <div id="registrationDetails"></div>
+    <script src="script.js"></script>
+</body>
+</html>
